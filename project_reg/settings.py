@@ -26,7 +26,7 @@ SECRET_KEY = 'x@@-pm-6!_$5d@bg7^o=-vcw0v_b+&u@p^%a4exzxfwmv3%p8d'
 DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1','gex194.pythonanywhere.com']
-
+LOGIN_REDIRECT_URL = '/'
 
 # Application definition
 
