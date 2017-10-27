@@ -18,7 +18,7 @@
         <p class="top-menu">Hello {{ user.username }} <small>(<a href="{% url 'logout' %}">Log out</a>)</small></p>
     {% else %}
         <a href="{% url 'login' %}" class="top-menu"><span class="glyphicon glyphicon-lock">Login</span></a>
-        <a href="accounts/register/" class="top-menu"><span class="glyphicon glyphicon-user">Register</span></a>
+        <a href="{% url 'registration_register' %}" class="top-menu"><span class="glyphicon glyphicon-user">Register</span></a>
     {% endif %}
     <h1><a href="/">Developer's Blog</a></h1>
 </div>

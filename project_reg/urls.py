@@ -15,6 +15,7 @@ Including another URLconf
 """
 from django.conf.urls import url,include
 from django.contrib import admin
+from registration.views import RegistrationView
 
 from django.contrib.auth import views
 urlpatterns = [
@@ -22,5 +23,5 @@ urlpatterns = [
     url(r'', include('blog.urls')),
     url(r'^accounts/login/$', views.login, name='login'),
     url(r'^accounts/logout/$', views.logout, name='logout', kwargs={'next_page': '/'}),
-    url(r'^accounts/register/%', include('registration.urls')),
+    url(r'^accounts/', include('registration.urls')),
 ]
