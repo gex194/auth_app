@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e17a505-b35b-423f-a549-8418c5bf7c1c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/templates/registration/activation_complete.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myvenv/Lib/site-packages/registration/backends/hmac/urls.py" afterPath="$PROJECT_DIR$/myvenv/Lib/site-packages/registration/backends/hmac/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myvenv/Lib/site-packages/registration/backends/model_activation/urls.py" afterPath="$PROJECT_DIR$/myvenv/Lib/site-packages/registration/backends/model_activation/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myvenv/Lib/site-packages/registration/tests/urls.py" afterPath="$PROJECT_DIR$/myvenv/Lib/site-packages/registration/tests/urls.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/templates/registration/activation_complete.html" afterPath="$PROJECT_DIR$/blog/templates/registration/registration_complete.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,11 +24,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="registration_complete.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="registration_complete.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/templates/registration/registration_complete.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
               <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activation_complete.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/blog/templates/registration/activation_complete.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="37" lean-forward="true" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -144,12 +150,13 @@
         <option value="$PROJECT_DIR$/blog/templates/registration/registration_form.html" />
         <option value="$PROJECT_DIR$/blog/templates/blog/base.html" />
         <option value="$PROJECT_DIR$/project_reg/urls.py" />
+        <option value="$PROJECT_DIR$/blog/templates/registration/activation_complete.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="716" />
-    <option name="y" value="385" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="529" />
+    <option name="y" value="378" />
     <option name="width" value="1226" />
     <option name="height" value="649" />
   </component>
@@ -230,6 +237,11 @@
     <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/pip/compat/__init__.py" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\auth_test\blog\templates\registration" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -271,7 +283,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="716" y="385" width="1226" height="649" extended-state="0" />
+    <frame x="529" y="378" width="1226" height="649" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28429753" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -329,14 +341,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project_reg/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog/templates/registration/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -732,6 +736,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/templates/registration/activation_complete.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="37" lean-forward="true" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
           <folding />
         </state>
       </provider>
