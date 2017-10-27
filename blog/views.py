@@ -4,6 +4,9 @@ from django.utils import timezone
 from .forms import PostForm
 from django.shortcuts import redirect
 from django.contrib.auth.decorators import login_required
+from django.contrib.auth import login, authenticate
+from django.contrib.auth.forms import UserCreationForm
+
 
 
 def post_list(request):
@@ -55,5 +58,26 @@ def post_publish(request,pk):
 def publish(self):
     self.published_date = timezone.now()
     self.save()
+
+
+def post_remove(request, pk):
+    post = get_object_or_404(Post, pk=pk)
+    post.delete()
+    return redirect(to='post_list')
+
+def registration(request):
+    if request.method == 'POST':
+        form = UserCreationForm(request.POST)
+        if form.is_valid():
+            form.save()
+            username = form.cleaned_data.get('username')
+            raw_password = form.cleaned_data.get('password1')
+            user = authenticate(username=username, password=raw_password)
+            login(request, user)
+            return redirect(to="login")
+        else:
+            form= UserCreationForm()
+            return render(request, 'registration_form.html', {'form': form})
+
 
 # Create your views here.
