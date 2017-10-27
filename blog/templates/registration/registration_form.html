@@ -7,11 +7,11 @@
 {% for field in form %}
     <dt>{{ field.label_tag }}</dt>
     <dd class="clearfix">{{ field }}
-    {% if field.help_text %}<div class="clearfix">{{ field.help_text }}</div>{% endif %}
+        {% if field.help_text %}<div class="clearfix"></div>{% endif %}
     {% if field.errors %}<div class="myerrors clearfix">{{ field.errors }}</div>{% endif %}
     </dd>
 {% endfor %}
 </dl>
-<input type="submit" value="Зарегистрироваться" / class="clearfix">
+<input type="submit" value="Зарегистрироваться" class="clearfix">
 </form>
 {% endblock %}
