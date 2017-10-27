@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e17a505-b35b-423f-a549-8418c5bf7c1c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Procfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/requirements.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project_reg/settings.py" afterPath="$PROJECT_DIR$/project_reg/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project_reg/wsgi.py" afterPath="$PROJECT_DIR$/project_reg/wsgi.py" />
-    </list>
+    <list default="true" id="8e17a505-b35b-423f-a549-8418c5bf7c1c" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -137,7 +130,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="489" />
     <option name="y" value="311" />
     <option name="width" value="1226" />
@@ -261,7 +254,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="489" y="311" width="1226" height="742" extended-state="1" />
+    <frame x="489" y="311" width="1226" height="742" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28429753" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
